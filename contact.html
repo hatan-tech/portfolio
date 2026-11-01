@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- fixed 500px feels right for a messenger window, check mobile later tho -->
+    <main class="os-window" style="width: 500px;">
+        <header class="window-titlebar">
+            <div class="window-controls">
+                <div class="control-btn" style="background-color: #ff5f56;"></div>
+                <div class="control-btn" style="background-color: #ffbd2e;"></div>
+                <div class="control-btn" style="background-color: #27c93f;"></div>
+            </div>
+            <div class="window-title">Instant_Messenger.bat</div>
+        </header>
+        <!--override the flex from style.css since this isn't 2 columns like about.html -->
+        <section class="window-content" style="display: block;">
+            <p style="margin-bottom: 20px; font-family: var(--font-mono); font-size: 13px;">> Establish connection with Christina...</p>
+            <!--TODO: hook up Formspree or EmailJS here, dead link for now -->
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" class="input-retro" placeholder="Username" required>
+                <input type="email" class="input-retro" placeholder="Email_Address" required>
+                <textarea class="input-retro" style="height: 100px; resize: none;" placeholder="Type your message here..." required></textarea>
+                
+                <button type="submit" class="btn-retro" style="width: 100%; margin-top: 10px;">Send Data</button>
+            </form>
+        </section>
+    </main>
+
+    <nav class="os-dock">
+        <a href="index.html" class="dock-item">
+            <span class="icon">🏠</span>Home
+        </a>
+        <a href="about.html" class="dock-item">
+            <span class="icon">👱‍♀️</span>About
+        </a>
+        <a href="portfolio.html" class="dock-item">
+            <span class="icon">🗂️</span>Work
+        </a>
+        <a href="contact.html" class="dock-item active">
+            <span class="icon">✉️</span>Contact
+        </a>
+    </nav>
+</body>
+</html>

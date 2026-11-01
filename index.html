@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Desktop Icons positions hardcoded in css icon 1 to 6 -->
+    <div class="desktop-icon icon-1">
+        <img src="images/MyFile.png" alt="MyFile">
+        <span>MyFile</span>
+    </div>
+    <div class="desktop-icon icon-2">
+        <img src="images/DesignerCC.png" alt="DesignerCC">
+        <span>DesignerCC</span>
+    </div>
+    <div class="desktop-icon icon-3">
+        <img src="images/Explorer.png" alt="Explorer">
+        <span>Explorer</span>
+    </div>
+
+<!-- row 2 -->
+
+    <div class="desktop-icon icon-4">
+        <img src="images/Solitaire.png" alt="Solitaire">
+        <span>Solitaire</span>
+    </div>
+    <div class="desktop-icon icon-5">
+        <img src="images/Notes.png" alt="Notes">
+        <span>Notes</span>
+    </div>
+    <div class="desktop-icon icon-6">
+        <img src="images/Backup.png" alt="Backup">
+        <span>Backup</span>
+    </div>
+
+
+    <main class="os-window">
+        <header class="window-titlebar">
+            <div class="window-controls">
+                <div class="control-btn" style="background-color: #ff5f56;"></div>
+                <div class="control-btn" style="background-color: #ffbd2e;"></div>
+                <div class="control-btn" style="background-color: #27c93f;"></div>
+            </div>
+            <div class="window-title">Welcome.exe</div>
+        </header>
+
+        <section class="window-content">
+            <div class="home-left">
+            <!-- unsplash link is temp, save it locally so it works offline -->
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=400&auto=format&fit=crop" alt="Retro computer setup">
+            </div>
+            
+            <div class="home-right">
+                <h1>Welcome to my Portfolio.</h1>
+                <p class="sub">The best update I've ever made.</p>
+                
+                <ul class="feature-list">
+                    <li><span class="icon">🖥️</span> I designed products used by XX people</li>
+                    <li><span class="icon">💬</span> Turning complex workflows into measurable business growth</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="window-buttons">
+            <button class="btn-retro" onclick="alert('Meh.')">Meh</button>
+            <a href="portfolio.html" class="btn-retro">Whatever</a>
+        </footer>
+    </main>
+
+ 
+    <nav class="os-dock">
+        <a href="index.html" class="dock-item active">
+            <span class="icon">🏠</span>Home
+        </a>
+        <a href="about.html" class="dock-item">
+            <span class="icon">👱‍♀️</span>About
+        </a>
+        <a href="portfolio.html" class="dock-item">
+            <span class="icon">🗂️</span>Work
+        </a>
+        <a href="contact.html" class="dock-item">
+            <span class="icon">✉️</span>Contact
+        </a>
+    </nav>
+
+</body>
+</html>

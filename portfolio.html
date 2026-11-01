@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="os-window" style="width: 800px;">
+        <header class="window-titlebar">
+            <div class="window-controls">
+                <div class="control-btn" style="background-color: #ff5f56;"></div>
+                <div class="control-btn" style="background-color: #ffbd2e;"></div>
+                <div class="control-btn" style="background-color: #27c93f;"></div>
+            </div>
+            <div class="window-title">My_Projects.exe</div>
+        </header>
+<!-- remember to update this text if i add more items lol -->
+        <section class="window-content" style="display: block;">
+            
+            <p style="margin-bottom: 20px; font-family: var(--font-mono);">> Loading files... 2 found.</p>
+            <!-- TODO: wrap cards in <a> tags once case study pages are built -->
+            <div class="portfolio-grid">
+                <div class="port-item">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=400&auto=format&fit=crop" alt="Web Design">
+                    <h3>Web.Design</h3>
+                    <p style="font-size: 12px; color: #555;">HTML5 / CSS3 Layout</p>
+                </div>
+                
+                <div class="port-item">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=400&auto=format&fit=crop" alt="Branding">
+                    <h3>Illustration.jpg</h3>
+                    <p style="font-size: 12px; color: #555;">Logo & Visual</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="window-buttons">
+            <a href="index.html" class="btn-retro">Cancel</a>
+        </footer>
+    </main>
+
+    <nav class="os-dock">
+        <a href="index.html" class="dock-item">
+            <span class="icon">🏠</span>Home
+        </a>
+        <a href="about.html" class="dock-item">
+            <span class="icon">👱‍♀️</span>About
+        </a>
+        <a href="portfolio.html" class="dock-item active">
+            <span class="icon">🗂️</span>Work
+        </a>
+        <a href="contact.html" class="dock-item">
+            <span class="icon">✉️</span>Contact
+        </a>
+    </nav>
+</body>
+</html>
